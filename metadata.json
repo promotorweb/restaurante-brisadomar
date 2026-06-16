@@ -1,0 +1,6 @@
+{
+  "name": "Brisa do Mar",
+  "description": "Website cinematográfico premium para o Restaurante e Petiscaria Brisa do Mar na Praia de Taquaras, Balneário Camboriú - SC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
