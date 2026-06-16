@@ -106,6 +106,7 @@ export default function GallerySection() {
                   src={item.url}
                   alt={item.title}
                   loading="lazy"
+                  decoding="async"
                   referrerPolicy="no-referrer"
                   className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
                 />
@@ -182,6 +183,7 @@ export default function GallerySection() {
                   <img
                     src={GALLERY_ITEMS[lightboxIndex].url}
                     alt={GALLERY_ITEMS[lightboxIndex].title}
+                    decoding="async"
                     referrerPolicy="no-referrer"
                     className="max-h-[60vh] max-w-full object-contain shadow-2xl border border-white/5"
                   />

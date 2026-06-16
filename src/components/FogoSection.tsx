@@ -74,6 +74,8 @@ export default function FogoSection() {
         <img
           src={IMAGES.fogoDeChao}
           alt="Braseiro e costela fogo de chão"
+          loading="lazy"
+          decoding="async"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center scale-105 filter blur-[2px]"
         />
@@ -103,6 +105,8 @@ export default function FogoSection() {
                         <img
                           src={slide.url}
                           alt={slide.title}
+                          loading="lazy"
+                          decoding="async"
                           referrerPolicy="no-referrer"
                           className={`w-full h-full object-cover ${
                             isActive

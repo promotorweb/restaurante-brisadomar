@@ -36,6 +36,8 @@ export default function TaquarasSection() {
         <img
           src={IMAGES.beachDrone}
           alt="Taquaras Drone vista costeira"
+          loading="lazy"
+          decoding="async"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center scale-100"
         />
@@ -90,6 +92,8 @@ export default function TaquarasSection() {
                 <img
                   src={IMAGES.hero}
                   alt="Aerial Drone de Taquaras e o Brisa do Mar"
+                  loading="lazy"
+                  decoding="async"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                 />

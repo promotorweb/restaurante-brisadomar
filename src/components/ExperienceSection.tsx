@@ -82,6 +82,8 @@ export default function ExperienceSection() {
             <img
               src={IMAGES.ambiance}
               alt="Ambiente rústico e sofisticado do Brisa do Mar"
+              loading="lazy"
+              decoding="async"
               referrerPolicy="no-referrer"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
             />

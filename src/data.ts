@@ -4,26 +4,26 @@
  */
 
 // Import static assets generated for the brand
-import restauranteDroneIa from "./assets/images/hero/restaurante-drone-ia.png";
-import restauranteDroneIa2 from "./assets/images/hero/restaurante-drone-ia-2.png";
-import restaurante from "./assets/images/hero/restaurante.png";
-import restauranteAmbiance from "./assets/images/restaurante/restaurante-1.png";
-import premiumSeafood from "./assets/images/pratos/pratos-1.png";
-import fogoDeChao from "./assets/images/pratos/pratos-6.png";
-import drinks from "./assets/images/gallery/drinks/drinks.png";
-import rodaGiganteCarne from "./assets/images/gallery/roda-gigante/roda-gigante-carne.png";
-import rodaGigantePeixe from "./assets/images/gallery/roda-gigante/roda-gigante-peixe.png";
-import rodaGigante2 from "./assets/images/gallery/roda-gigante/roda-gigante-2.png";
+import restauranteDroneIa from "./assets/images/hero/restaurante-drone-ia.webp";
+import restauranteDroneIa2 from "./assets/images/hero/restaurante-drone-ia-2.webp";
+import restaurante from "./assets/images/hero/restaurante.webp";
+import restauranteAmbiance from "./assets/images/restaurante/restaurante-1.webp";
+import premiumSeafood from "./assets/images/pratos/pratos-1.webp";
+import fogoDeChao from "./assets/images/pratos/pratos-6.webp";
+import drinks from "./assets/images/gallery/drinks/drinks.webp";
+import rodaGiganteCarne from "./assets/images/gallery/roda-gigante/roda-gigante-carne.webp";
+import rodaGigantePeixe from "./assets/images/gallery/roda-gigante/roda-gigante-peixe.webp";
+import rodaGigante2 from "./assets/images/gallery/roda-gigante/roda-gigante-2.webp";
 
 // New Gallery Image Imports
-import galleryPratos1 from "./assets/images/gallery/pratos/pratos-1.png";
-import galleryPratos2 from "./assets/images/gallery/pratos/pratos-2.png";
-import galleryPratos3 from "./assets/images/gallery/pratos/pratos-3.png";
-import galleryPratos4 from "./assets/images/gallery/pratos/pratos-4.png";
-import galleryPratos5 from "./assets/images/gallery/pratos/pratos-5.png";
-import galleryPetiscos7 from "./assets/images/gallery/petiscos/pratos-7.png";
-import galleryPetiscos8 from "./assets/images/gallery/petiscos/pratos-8.png";
-import galleryPlaca from "./assets/images/gallery/ambiente/placa-do-restaurante.png";
+import galleryPratos1 from "./assets/images/gallery/pratos/pratos-1.webp";
+import galleryPratos2 from "./assets/images/gallery/pratos/pratos-2.webp";
+import galleryPratos3 from "./assets/images/gallery/pratos/pratos-3.webp";
+import galleryPratos4 from "./assets/images/gallery/pratos/pratos-4.webp";
+import galleryPratos5 from "./assets/images/gallery/pratos/pratos-5.webp";
+import galleryPetiscos7 from "./assets/images/gallery/petiscos/pratos-7.webp";
+import galleryPetiscos8 from "./assets/images/gallery/petiscos/pratos-8.webp";
+import galleryPlaca from "./assets/images/gallery/ambiente/placa-do-restaurante.webp";
 
 export interface MenuItem {
   id: string;

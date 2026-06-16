@@ -60,6 +60,8 @@ export default function HeroSection({ onActionClick }: HeroSectionProps) {
               <img
                 src={slide.url}
                 alt={slide.alt}
+                loading={index === 0 ? "eager" : "lazy"}
+                decoding="async"
                 referrerPolicy="no-referrer"
                 className={`w-full h-full object-cover object-center ${
                   isActive ? "transition-transform duration-[6000ms] ease-linear scale-108" : "scale-100"
